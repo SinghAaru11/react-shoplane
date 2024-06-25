@@ -1,0 +1,225 @@
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"); */
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.product-page {
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  flex-flow: row wrap;
+  /* flex-wrap: wrap; */
+  /* text-overflow:initial; */
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+
+
+}
+
+.product-cartdetails {
+  /* flex: 19%; */
+ width: 19%; 
+
+  border: 0.3px solid rgba(234, 97, 5, 0.626);
+  padding: 25px;
+  margin: 7px;
+  border-radius: 3px;
+
+}
+
+.pro-image {
+  width: 60%;
+  margin: 7px;
+}
+
+.pro-image:hover {
+  cursor: zoom-in;
+  transition: 1.8s;
+  transform: scale(1.5);
+}
+
+.image-container {
+  text-align: center;
+  border-bottom: 10.3px solid rgba(221, 130, 18, 0.814);
+}
+
+
+.product-details {
+  width: 100%;
+  /* display: flex; */
+  margin-top: 40px;
+}
+
+.product-details p span {
+  color: brown;
+  font-weight: bold;
+}
+
+.product-title {
+  /* font-family:cursive; */
+  white-space: nowrap;
+  overflow: hidden;
+  /* text-overflow:ellipsis; */
+}
+
+.price-tag span {
+  /* font-size: 11px; */
+  color: darkslategrey;
+}
+
+.starDetails {
+  display: flex;
+  align-items: center;
+  font-size: small;
+  /* margin-top: 20px; */
+}
+
+.star-rating {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  height: 25px;
+}
+
+.empty-stars {
+  display: flex;
+  color: rgba(132, 130, 130, 0.925);
+  position: relative;
+}
+
+.ratestar {
+  display: flex;
+  color: rgba(255, 255, 0, 0.799);
+  overflow: hidden;
+  position: absolute;
+}
+
+.Added-class {
+  background-color: rgba(243, 144, 5, 0.875) !important;
+  color: #f9f9fa !important;
+}
+
+.addtocart {
+  margin-top: 25px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: rgb(83 171 249 / 91%) 4px 3px 5px 0px;
+  background: #588beafb;
+  cursor: pointer;
+  height: 28px;
+  color: white;
+  font: bolder;
+  width: 100%;
+}
+/* testing */
+
+/* Mobile Phones */
+@media (max-width: 480px) {
+  .product-page {
+      flex-direction: column;
+      margin-top: 20px;
+  }
+
+  .product-cartdetails {
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0;
+  }
+
+  .pro-image {
+      width: 100%;
+      margin: 10px 0;
+  }
+
+  .image-container {
+      border-bottom: 5px solid rgba(221, 130, 18, 0.814);
+  }
+
+  .product-details {
+      width: 100%;
+      margin-top: 20px;
+  }
+
+  .product-title {
+      white-space: normal;
+      overflow: visible;
+  }
+
+  .price-tag span {
+      font-size: 12px;
+  }
+
+  .starDetails {
+      font-size: small;
+  }
+
+  .star-rating {
+      font-size: 12px;
+      height: 20px;
+  }
+
+  .addtocart {
+      margin-top: 15px;
+      height: 35px;
+      font-size: 14px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .product-page {
+      flex-direction: column;
+      margin-top: 30px;
+  }
+
+  .product-cartdetails {
+      width: 100%;
+      padding: 20px;
+      margin: 15px 0;
+  }
+
+  .pro-image {
+      width: 80%;
+      margin: 15px auto;
+  }
+
+  .image-container {
+      border-bottom: 8px solid rgba(221, 130, 18, 0.814);
+  }
+
+  .product-details {
+      width: 100%;
+      margin-top: 30px;
+  }
+
+  .product-title {
+      white-space: normal;
+      overflow: visible;
+  }
+
+  .price-tag span {
+      font-size: 14px;
+  }
+
+  .starDetails {
+      font-size: small;
+  }
+
+  .star-rating {
+      font-size: 12px;
+      height: 20px;
+  }
+
+  .addtocart {
+      margin-top: 20px;
+      height: 30px;
+      font-size: 16px;
+  }
+}
+
+
+
+

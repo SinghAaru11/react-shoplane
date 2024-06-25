@@ -1,0 +1,250 @@
+
+.cart-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* flex-flow: row wrap; */
+    justify-content:space-around;
+  }
+
+  .cartProduct {
+    width: 65%;
+    display: flex;
+    box-shadow: rgba(83, 208, 249, 0.905) 1px 2px 4px;
+    padding: 15px;
+    margin: 7px;
+    border-radius: 3px;
+}
+
+.cart-product-image{
+        width: 15%;
+        /* //added to cart product image */
+      }
+
+.product-image{
+  width: 80%;
+  padding: 10px 0px;
+  margin: 7px;
+}
+
+.product-image:hover{
+       cursor:zoom-in;
+        transition: 1.8s;
+        transform: scale(1.5);
+      }
+.product-detail{
+        width: 92%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content:flex-end;      }
+
+.delete-btn{
+          display: flex;
+          align-items: flex-end;
+           }
+.deleteCarticon{
+          cursor:grab;
+          background-color:white;
+          border:none;    
+        }
+        
+
+        .cart-total-value {
+          box-shadow: rgba(83, 208, 249, 0.905) 1px 2px 6px;
+          width: 20%;
+          /* right: 56px; */
+          border-radius: 4px;
+          position: relative;
+          margin-top: 50px;
+          /* top: 54%; */
+          left: 71%;
+      }
+
+ .Order-summary{
+      display: flex;
+     align-items:center;
+     justify-content: space-between;
+    margin:17px;
+    }
+
+.product_value , .Order-summary p {
+  color: rgba(175, 52, 18, 0.885);
+  font-weight: 600;
+  font-size: small;
+    }
+
+ .order-total p{
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.727);
+  font-size: 15px;
+    }
+
+.product-title{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 17px;
+      font-weight: bold;
+    }
+.product-title span{
+        color: gray;
+        font-weight: 200;
+        font-size: 15px;
+      }
+
+.price-tag{
+        font-size: 15px;
+        font-weight: 800;
+        margin-left: 10px;
+        color: brown;
+} 
+
+
+
+/* test */
+
+
+
+
+/* Mobile Phones */
+@media (max-width: 480px) {
+  .cart-container {
+      width: 100%;
+    
+  }
+
+  .cartProduct {
+      width: 90%;
+      flex-direction: column;
+      box-shadow: rgba(83, 208, 249, 0.905) 0px 0px 6px;
+      padding: 10px;
+      margin: 10px 20px;
+  }
+
+  .cart-product-image {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+
+  .product-image {
+      width: 80%;
+      padding: 10px;
+      margin: 0;
+  }
+
+  .product-detail {
+      width: 100%;
+      justify-content: center;
+      text-align: center;
+  }
+
+  .delete-btn {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+  }
+
+  .cart-total-value {
+      width: 80%;
+      right: 0;
+      left: 10%;
+      margin-top: 20px;
+      position: relative;
+  }
+
+  .Order-summary {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px 0;
+  }
+
+  .product_value,
+  .Order-summary p,
+  .order-total p {
+      font-size: small;
+  }
+
+  .product-title {
+      font-size: 16px;
+  }
+
+  .product-title span {
+      font-size: 14px;
+  }
+
+  .price-tag {
+      font-size: 14px;
+      margin-left: 0;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .cart-container {
+      width: 100%;
+     
+  }
+
+  .cartProduct {
+      width: 90%;
+      flex-direction: row;
+      box-shadow: rgba(83, 208, 249, 0.905) 0px 0px 6px;
+      padding: 15px;
+      margin: 10px 20px;
+  }
+
+  .cart-product-image {
+      width: 30%;
+  }
+
+  .product-image {
+      width: 100%;
+      padding: 10px;
+  }
+
+  .product-detail {
+      width: 70%;
+      justify-content: flex-start;
+  }
+
+  .delete-btn {
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .cart-total-value {
+      width: 60%;
+      right: 0;
+      left: 20%;
+      margin-top: 20px;
+      position: relative;
+  }
+
+  .Order-summary {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0px 0;
+  }
+
+  .product_value,
+  .Order-summary p,
+  .order-total p {
+      font-size: medium;
+  }
+
+  .product-title {
+      font-size: 18px;
+  }
+
+  .product-title span {
+      font-size: 16px;
+  }
+
+  .price-tag {
+      font-size: 16px;
+  }
+}
+
+
