@@ -6,7 +6,7 @@ import  "../all/all.css";
 
 function Jewellry(props) {
 
-    const[jewelry, setData]=useState([])
+    let[jewelry, setData]=useState([])
 
     useEffect(() => {
         let url = "https://fakestoreapi.com/products/category/jewelery";
@@ -31,7 +31,7 @@ function Jewellry(props) {
                     </div>
 
                     <div className='product-details'> 
-                          <p className='product-title'><b>Brand, </b><span>{item.title}</span></p>
+                          <p className='product-title'><b>BrandBrand, </b><span>{item.title}</span></p>
                               <span>
                                   <div className="star-rating" >
                                     <div className="empty-stars">
