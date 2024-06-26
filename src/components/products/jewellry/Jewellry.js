@@ -31,7 +31,7 @@ function Jewellry(props) {
                     </div>
 
                     <div className='product-details'> 
-                          <p className='product-title'><b>BrandBrand </b><span>{item.title}</span></p>
+                          <p className='product-title'><b>BrandBrand,,,,,mmmm </b><span>{item.title}</span></p>
                               <span>
                                   <div className="star-rating" >
                                     <div className="empty-stars">
