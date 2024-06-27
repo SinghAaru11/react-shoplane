@@ -31,7 +31,7 @@ function CartTotal(para){
           return( <div className='cartProduct' key={index}>
                           
                     <div className='cart-product-image'>
-                         <img className='product-image' src={item.image} alt='product'/>
+                         <img className='product-image img-fluid' src={item.image} alt='product'/>
                     </div>
     
                     <div className='product-detail'> 

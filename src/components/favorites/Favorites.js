@@ -16,7 +16,7 @@ function Favorites(props) {
                           </div>
     
                          <div className='image-container'>
-                                  <img className='pro-image' src={item.image} alt='product'/>
+                                  <img className='pro-image img-fluid' src={item.image} alt='product'/>
                         </div>
     
                          <div className='product-details'> 

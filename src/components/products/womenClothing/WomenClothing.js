@@ -29,7 +29,7 @@ function WoMens(props) {
                   </div>
 
                     <div className='image-container'>
-                          <img className='pro-image' src={item.image} alt='product'/>
+                          <img className='pro-image' style={{ width: '300px', height: '200px' }} src={item.image} alt='product'/>
                     </div>
 
                     <div className='product-details'> 

@@ -31,13 +31,14 @@
 }
 
 .pro-image {
-  width: 60%;
+  width: 200px!important;
+  height:220px;
   margin: 7px;
 }
 
 .pro-image:hover {
   cursor: zoom-in;
-  transition: 1.8s;
+  transition: 1.6s;
   transform: scale(1.5);
 }
 
@@ -129,9 +130,11 @@
       margin: 10px 0;
   }
 
+  
   .pro-image {
-      width: 100%;
-      margin: 10px 0;
+    width: 200px;
+    height:180px;
+    margin: 7px;
   }
 
   .image-container {
@@ -182,10 +185,10 @@
   }
 
   .pro-image {
-      width: 80%;
-      margin: 15px auto;
+    width: 200px;
+    height:180px;
+    margin: 7px;
   }
-
   .image-container {
       border-bottom: 8px solid rgba(221, 130, 18, 0.814);
   }
