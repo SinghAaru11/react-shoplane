@@ -75,6 +75,7 @@
 
   .menu { 
     position: absolute;
+   
     list-style-type: none;
     padding: 15px;
     width: 135px;
@@ -131,8 +132,10 @@
   font-weight: bolder;
   width: 34px;
 }
-.cart-section{
-position: relative;
+.cart-section {
+  position: absolute;
+  top: 5%;
+  left: 93%;
 }
 
 .cart-section span {
@@ -186,25 +189,25 @@ left: 37px;
   }
 
   .login-signup {
-      width: 100%;
-      height: auto;
-      box-shadow: none;
-      margin-bottom: 10px;
-      justify-content: center;
-  }
-
+    /* width: 100%; */
+    height: auto;
+    /* box-shadow: none; */
+    margin-bottom: 14px;
+    /* justify-content: inherit; */
+    display: flow;
+    margin-top: 25px;
+    margin-left: 100px;
+}
   .drop-arrow {
       width: 15px;
   }
 
-  .menu {
-    width: 40%;
-    padding: 10px;
-    box-shadow: none;
-    text-align: center;
-    background-color: aliceblue;
-    margin-top: 37px;
-}
+  .menu { 
+    position: absolute;
+    top:15%;
+    left:46%;
+
+  } 
 
   .menu li a {
       font-size: small;
@@ -229,6 +232,11 @@ left: 37px;
   .cart-section span {
       left: 30px;
       font-size: 10px;
+  }
+  .cart-section {
+    position: absolute;
+    top: 12%;
+    left: 80%;
   }
 }
 
@@ -271,25 +279,27 @@ left: 37px;
   }
 
   .login-signup {
-      width: 80%;
-      height: auto;
-      box-shadow: none;
-      margin-bottom: 10px;
-      justify-content: center;
-  }
-
+    /* width: 100%; */
+    height: auto;
+    /* box-shadow: none; */
+    margin-bottom: 14px;
+    /* justify-content: inherit; */
+    display: flow;
+    margin-top: 25px;
+    margin-left: 100px;
+}
   .drop-arrow {
       width: 15px;
   }
 
-    .menu {
-        width: 40%;
-        padding: 10px;
-        box-shadow: none;
-        text-align: center;
-        background-color: aliceblue;
-        margin-top: 37px;
-    }
+  .menu { 
+    position: absolute;
+    top:15%;
+    left:46%;
+   
+   
+
+  } 
 
 
   .menu li a {
@@ -315,5 +325,10 @@ left: 37px;
   .cart-section span {
       left: 30px;
       font-size: 10px;
+  }
+  .cart-section {
+    position: absolute;
+    top: 12%;
+    left: 80%;
   }
 }
