@@ -26,7 +26,7 @@ function CartTotal(para){
 
  return(
         <div className='cart-container'>
-         {cart.length>0 ?cart.map((item, index)=>{
+         {cart.length>0 ? cart.map((item, index)=>{
 
           return( <div className='cartProduct' key={index}>
                           

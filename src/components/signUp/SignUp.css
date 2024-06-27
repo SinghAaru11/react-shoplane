@@ -1,124 +1,34 @@
 
-*{
-    box-sizing: border-box;
+
+p{
+  font-size: 13px;
+  margin-left: 10px;
 }
-.signup-container {
-    /* width: 100%; */
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 0 1rem;
-    box-shadow: rgba(48, 60, 189, 0.927) 3px 0px 0px 0px;
-    /* box-shadow: rgba(48, 60, 189, 0.927) 8px 10px 2px; */
-  }
-  
-.form-container{
-    width: 35%;
-    margin: auto;
-    height: 90%;
-    box-shadow: rgba(48, 60, 189, 0.927) 0px 0px 6px;
-
-    /* margin-top: 25px; */
-    padding: 0px 30px;
-    border-radius: 0.2rem;
-}
- 
-.form-container h1 {
-    font-weight: 500;
-    text-align: center;
-    margin: 40px 0px 5px 0px;
-  }
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    background: whitesmoke;
-    box-shadow: rgba(48, 60, 189, 0.927) 0px 0px 6px;
-    /* height: 100%; */
-    margin: 0px 0px 40px 0px;
-    border-radius: 4px;
-  } 
-  input {
-    box-sizing: border-box;
-    font-family:'Courier New', Courier, monospace;
-    font-weight: 500;
-    width: 80%;
-    height: 30px;
-    margin-top: 12px;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    box-shadow: rgb(54, 71, 255) 0px 0px 6px;
-    
-  }
-  
- input:focus{
-    outline: 0.5px solid rgb(192, 99, 6) ;
-    
-  } 
-  .form-container span{
-    font-weight: 500;
-    font-size: small;
-    color:  rgb(192, 99, 6);
-  }
-   
-  .submit-btn {
-    font-size: 17px;
-    letter-spacing: 1px;
-    font-weight: 500;
-    width: 80%;
-    height: 30px;
-    margin-top: 9px;
-    margin-bottom: 9px;
-    padding-left: 1rem;
-    background: rgb(3, 82, 252);
-    border: none;
-    border-radius: 4px;
-    color: white;
-    cursor: pointer;
-  }
-/*  
-   form p {
-    font-size: 0.8rem;
-    padding: 1rem 3rem;
-    margin-top: 1rem;
-    font-weight: 400;
-   
-  }
-  
-  form a {
-    color: blue;
-    text-decoration: none;
-
-  }  */
-  
-
- /* p {
-  margin: 0;
-  padding: 0;
-  font-weight: 400;
-  line-height: 1.5rem;
-  font-size: 0.9rem;
-}  */
-
 
   
   
   
-/* testing */
+
 
 *{
   box-sizing: border-box;
 }
 
-.signup-container {
+/* .signup-container {
   height: 100%;
   width: 116%;
   display: flex;
   flex-direction: column;
   padding: 0 1rem;
   box-shadow: rgba(48, 60, 189, 0.927) 1px 2px 5px 0px;
+} */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* overflow: hidden; */
+  margin-bottom: 20px;
 }
 .form-container {
   width: 35%;
@@ -150,13 +60,15 @@ input {
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 500;
-  width: 80%;
+  width: 75%;
   height: 30px;
   margin-top: 12px;
   padding: 10px;
   border: none;
   border-radius: 4px;
   box-shadow: rgb(54, 71, 255) 0px 0px 6px;
+  margin-left: 12px;
+
 }
 
 input:focus {
@@ -170,10 +82,10 @@ input:focus {
 }
 
 .submit-btn {
-  font-size: 17px;
+  font-size: 16px;
   letter-spacing: 1px;
   font-weight: 500;
-  width: 80%;
+  width: 36%;
   height: 30px;
   margin-top: 9px;
   margin-bottom: 9px;
@@ -199,10 +111,10 @@ input:focus {
   }
 
   .submit-btn {
-      font-size: 14px;
-      width: 100%;
-      padding: 10px;
-  }
+    font-size: 16px;
+    width: 55%;
+    padding: 7px;
+}
 
   .form-container span {
       font-size: smaller;
@@ -223,10 +135,10 @@ input:focus {
   }
 
   .submit-btn {
-      font-size: 16px;
-      width: 90%;
-      padding: 10px;
-  }
+    font-size: 16px;
+    width: 55%;
+    padding: 7px;
+}
 
   .form-container span {
       font-size: medium;

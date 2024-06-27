@@ -25,29 +25,37 @@
     /* //top-right-bottom-left----clockwise */
   }
  
-.btn-submit {
-    font-size: 17px;
-    font-weight: 500;
+  .btn-submit{
+    font-size: 16px;
     letter-spacing: 1px;
-    width: 80%;
-    padding: 8px;
-    margin-top: 13px;
-    margin-bottom: 10px;
+    font-weight: 500;
+    width: 33%;
+    height: 30px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    padding-left: 1rem;
     background: rgb(3, 82, 252);
-    color: white;
     border: none;
     border-radius: 4px;
-   cursor: pointer;
+    color: white;
+    cursor: pointer;
   }
   .form-section span{
     font-weight: 500;
     font-size: small;
     color: crimson;
   }
-/* // */
-  input:focus{
-    outline: 0.5px solid rgba(218, 5, 87, 0.851) ;
-    
+
+ 
+  .form-container span{
+    font-weight: 500;
+    font-size: small;
+    color:  rgb(192, 99, 6);
+  }
+  
+  p{
+    font-size: 13px;
+    margin-left: 10px;
   }
   
 
@@ -75,6 +83,7 @@
       width: 100%;
       padding: 10px;
   }
+  
 
   .form-section span {
       font-size: smaller;
@@ -107,4 +116,5 @@
   .form-section span {
       font-size: medium;
   }
+
 }
