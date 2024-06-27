@@ -173,13 +173,14 @@ left: 37px;
   }
 
   .nav ul {
-    
+
       flex-direction: column;
       margin: 0;
       border: none;
   }
 
   .nav ul li {
+    
       margin: 10px 0;
       font-size: 14px;
   }
