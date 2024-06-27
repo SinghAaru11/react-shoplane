@@ -31,7 +31,8 @@
 }
 
 .pro-image {
-  width: 200px!important;
+  /* width: 200px!important; */
+  max-width: -webkit-fill-available;
   height:220px;
   margin: 7px;
 }
